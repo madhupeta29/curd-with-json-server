@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 7,
+      "firstName": "madhu",
+      "lastName": "peta",
+      "email": "m.s.reddy5822@gmail.com",
+      "mobile": "9160917165",
+      "salary": "5555555"
+    },
+    {
+      "id": 8,
+      "firstName": "madhu",
+      "lastName": "peta",
+      "email": "m.s.reddy5822@gmail.com",
+      "mobile": "9440059974",
+      "salary": "66666"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,46 @@
+[
+{
+    "Name":"madhu",
+    "City":"Nellore",
+    "Mobile":"9000300337",
+    "Surname":"Peta",
+    "Education":"B.TECH",
+    "Dob": "21-08-1991"
+
+},
+{
+    "Name":"hari",
+    "City":"cm",
+    "Mobile":"9160917165",
+    "Surname":"Gongati",
+    "Education":"B.TECH",
+    "Dob": "16-11-1992"
+},
+{
+    "Name":"harish",
+    "City":"Nellore",
+    "Mobile":"9742990743",
+    "Surname":"achhem",
+    "Education":"B.TECH",
+    "Dob": "22-08-1866"
+},
+
+{
+    "Name":"madhu",
+    "City":"Nellore",
+    "Mobile":"9000300337",
+    "Surname":"Peta",
+    "Education":"B.TECH",
+    "Dob": "21-08-1991"
+},
+{
+    "Name":"gali",
+    "City":"earth",
+    "Mobile":"976655337",
+    "Surname":"nakka",
+    "Education":"MCA",
+    "Dob": "21-08-1996"
+}
+
+
+]

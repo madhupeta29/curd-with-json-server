@@ -1,0 +1,33 @@
+<div class="form-Group row"></div>
+<div class="form-Group row">
+    <label for="search" class="col-sm-2 col-form-label" style="text-align: right;">search</label>
+    <div class="col-sm-6">
+        <input type="text" [(ngModel)]="searchValue" class="form-control" id="search" />
+    </div>
+</div>
+
+<!----- table start-------->
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">City</th>
+            <th scope="col">Mobile</th>
+            <th scope="col">Surname</th>
+            <th scope="col">Education</th>
+            <th scope="col">Dob</th>
+        </tr>
+   </thead>
+    <tbody>
+
+        <tr *ngFor="let features of Personaldata | serachfilter:searchValue">
+
+            <td scope="col">{{features.Name}}</td>
+            <td scope="col">{{features.City}}</td>
+            <td scope="col">{{features.Mobile}}</td>
+            <td scope="col">{{features.Surname}}</td>
+            <td scope="col">{{features.Education}}</td>
+            <td scope="col">{{features.Dob}}  </td>
+        </tr>
+    </tbody>
+</table>
