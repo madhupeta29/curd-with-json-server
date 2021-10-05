@@ -29,6 +29,7 @@ import { RegisterComponent } from './register/register.component';
 import { FacebbokComponent } from './facebbok/facebbok.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HelpComponent } from './help/help.component';
+import { SivaComponent } from './siva/siva.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +48,8 @@ import { HelpComponent } from './help/help.component';
     LogoutComponent,
     RegisterComponent,
     FacebbokComponent,
-    HelpComponent
+    HelpComponent,
+    SivaComponent
 
   ],
   imports: [
